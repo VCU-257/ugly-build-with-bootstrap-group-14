@@ -38,3 +38,6 @@ Yes, I used an AI tool to help with layout and debugging.
 - How to debug layout issues quickly
 
 ## Live Site Link
+https://vcu-257.github.io/ugly-build-with-bootstrap-group-14/find-ticket.html
+https://vcu-257.github.io/ugly-build-with-bootstrap-group-14/payment.html
+https://vcu-257.github.io/ugly-build-with-bootstrap-group-14/ticket-details.html

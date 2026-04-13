@@ -17,3 +17,5 @@ Yes, I used an AI tool to help with parts of the layout.
 * **How it helped & What I learned:** It helped me understand how col-12 and col-lg-6 work together — col-12 is the mobile default and col-lg-6 kicks in on larger screens.
 
 ## 5. Live Site Link
+https://vcu-257.github.io/ugly-build-with-bootstrap-group-14/payment-error.html
+https://vcu-257.github.io/ugly-build-with-bootstrap-group-14/payment-success.html

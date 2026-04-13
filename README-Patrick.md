@@ -17,4 +17,4 @@ How it helped:
 It helped me structure the layout using cards and buttons, and I learned how Bootstrap works in general
 
 ## 5. Live Site Link
-Live URL: (paste your GitHub Pages link here later)
+(https://vcu-257.github.io/ugly-build-with-bootstrap-group-14/dashboard.html)

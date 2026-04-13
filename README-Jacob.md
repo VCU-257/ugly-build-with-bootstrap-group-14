@@ -13,3 +13,5 @@ The technical challenges do not apply to my responsibilities. The hardest part w
 I used Claude for help with the centering of the different components. It helped me learn about margins.
 
 ## Live Site Link.
+https://vcu-257.github.io/ugly-build-with-bootstrap-group-14/index.html
+https://vcu-257.github.io/ugly-build-with-bootstrap-group-14/login-error.html
