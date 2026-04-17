@@ -1,4 +1,4 @@
-# Student Name: Patrick [Your Last Name]
+# Student Name: Patrick Thanasack
 
 ## 1. My Assigned Work
 I was responsible for building the Dashboard page (dashboard.html).
