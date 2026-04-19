@@ -1,19 +1,20 @@
 # Student Name: Matthews Twolde
 
 ## 1. My Assigned Work
-- payment-error.html
-- payment-success.html
+- payment-success.html (themed + interactive)
+- payment-error.html (themed + interactive)
+- custom.css (shared theme file applied across all team pages)
 
-## 2. Bootstrap Implementation
-Yes, I stuck to the plan from Table 1. Both screens use Card, Button, and Alert components as mapped in the GA 7 planning document.
-* **Components Used:** Bootstrap Card, Alert, Buttons, responsive grid (col-12, col-lg-6, col-lg-4)
+## 2. AI / LLM Usage
+Yes, I used an AI tool to help with theming and adding JavaScript interactions.
 
-## 3. Technical Challenges & Solutions
-The payment screens did not require connecting to a real payment provider since this is a static prototype. The hardest part was getting the responsive grid right — making the card center on desktop with col-lg-6 and go full width on mobile with col-12.
+* **What I asked the AI:**
+  - "How do I override Bootstrap's :root CSS variables to change the primary and success colors without using SCSS?"
 
-## 4. AI / LLM Usage
-Yes, I used an AI tool to help with parts of the layout.
-* **What I asked the AI:** How to center Bootstrap cards and structure responsive columns.
-* **How it helped & What I learned:** It helped me understand how col-12 and col-lg-6 work together — col-12 is the mobile default and col-lg-6 kicks in on larger screens.
+* **How it helped & What I learned:**
+  The AI showed me how to override `--bs-primary`, `--bs-success`, and `--bs-body-bg` directly in a `custom.css` file linked after Bootstrap — this avoids needing SCSS compilation. I learned that Bootstrap components like `.btn-primary` still need their own class-level overrides in addition to the `:root` variables because the background-color is compiled into the button rule.
 
-## 5. Live Site Link
+## 3. Live Site Link
+* **Live URL:**
+  - https://vcu-257.github.io/ugly-build-with-bootstrap-group-14/payment-success.html
+  - https://vcu-257.github.io/ugly-build-with-bootstrap-group-14/payment-error.html
