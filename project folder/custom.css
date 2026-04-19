@@ -1,0 +1,81 @@
+:root {
+    --bs-primary: #1a56db;
+    --bs-primary-rgb: 26, 86, 219;
+    --bs-secondary: #057a55;
+    --bs-secondary-rgb: 5, 122, 85;
+    --bs-success: #057a55;
+    --bs-success-rgb: 5, 122, 85;
+    --bs-body-bg: #f3f4f6;
+    --bs-body-color: #111827;
+    --bs-body-font-family: 'Inter', sans-serif;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #f3f4f6;
+    color: #111827;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+.btn-primary {
+    background-color: #1a56db;
+    border-color: #1a56db;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+    background-color: #1542a8;
+    border-color: #1542a8;
+}
+
+.btn-success {
+    background-color: #057a55;
+    border-color: #057a55;
+}
+
+.btn-success:hover,
+.btn-success:focus {
+    background-color: #046044;
+    border-color: #046044;
+}
+
+.btn-secondary {
+    background-color: #4b5563;
+    border-color: #4b5563;
+}
+
+.card {
+    border: none;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    border-radius: 0.75rem;
+}
+
+.card-title {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+.alert-success {
+    background-color: #d1fae5;
+    border-color: #057a55;
+    color: #064e3b;
+}
+
+.alert-danger {
+    background-color: #fee2e2;
+    border-color: #b91c1c;
+    color: #7f1d1d;
+}
+
+.form-control:focus {
+    border-color: #1a56db;
+    box-shadow: 0 0 0 0.2rem rgba(26, 86, 219, 0.25);
+}
+
+.list-group-item {
+    background-color: transparent;
+}
